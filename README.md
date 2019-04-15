@@ -10,7 +10,7 @@ Multirate Expontential Runge-Kutta (MERK) methods of orders three (`MERK3`), fou
 
   ```y' = Ay + g(t,y)``` 
 
-where ```Ay``` denotes the fast linear part (cheap) and ```g(t,y)``` denotes the slow and expensive part. In addition, we also run tests with the Multirate Infinitesimal Step method (`MIS-KW3`, J. Wensch, O. Knoth and A. Galant, BIT Numer. Math., 2009) for comparison.
+where ```Ay``` denotes the fast linear part (cheap) and ```g(t,y)``` denotes the slow and expensive part. In addition, we also run tests with the Multirate Infinitesimal Step method (`MIS-KW3`, [J. Wensch, O. Knoth and A. Galant, BIT Numer. Math., 2009](https://doi.org/10.1007/s10543-009-0222-3)) for comparison.
 
 The test problems are divided into two categories as discussed in the paper. The first category has problems that are concerned about stiffness in the fast component and an expensive slow component. For this set of problems, the micro step denoted *hfast* is held constant while the macro time step *h* and the time scale separation factor *m* vary. The brusselator test problem (`driver_brusselator.m`) together with a reaction diffusion (`driver_randd.m`) problem are considered. 
 
