@@ -3,8 +3,7 @@
 #### Rujeko Chinomona, Daniel R. Reynolds, and Vu Thai Luan ####
 Department of Mathematics, Southern Methodist University
 
-This repository contains MATLAB files for test problems highlighted in the paper, 
-   "A new class of high-order methods for multirate differential equations" Vu Thai Luan, Rujeko Chinomona & Daniel R. Reynolds. 
+This repository contains MATLAB files for test problems highlighted in the paper, [Vu Thai Luan, Rujeko Chinomona & Daniel R. Reynolds, "A new class of high-order methods for multirate differential equations," arXiv:1904.06474, 2019](https://arxiv.org/abs/1904.06474).
    
 Multirate Expontential Runge-Kutta (MERK) methods of orders three (`MERK3`), four (`MERK4`), and five (`MERK5`) are implemented on the additively split multirate problem: 
 
